@@ -1,53 +1,53 @@
-// primitive
+primitive
 
-// types: string ,number,null ,undefined,boolean,synbole,BigInt
-
-
-// const score = 100
-
-// const scoreValue= 100.2
-// const isLoggedIn= false 
-// const outsideTemp= nulll 
-// let userEmail;
+types: string ,number,null ,undefined,boolean,synbole,BigInt
 
 
-// const id= symbol('123')
-// const anotherId = symbol('123')
+const score = 100
 
-// console.log(id=== anotherId);
-
-// const bigNumber= 486369826823668
-
-
-// // refrence (non primitive)
-
-// // Arrays,objects,functions
+const scoreValue= 100.2
+const isLoggedIn= false 
+const outsideTemp= nulll 
+let userEmail;
 
 
-// const heros= ["shaktiman", "naagraj","flying"];
-//  let myObj={ 
-//     name:"brijesh",
-//     age: 19,
-// }
+const id= symbol('123')
+const anotherId = symbol('123')
 
-// const myFunction =function(){
-//     console.log("hello world");
-// }
+console.log(id=== anotherId);
+
+const bigNumber= 486369826823668
+
+
+// refrence (non primitive)
+
+// Arrays,objects,functions
+
+
+const heros= ["shaktiman", "naagraj","flying"];
+ let myObj={ 
+    name:"brijesh",
+    age: 19,
+}
+
+const myFunction =function(){
+    console.log("hello world");
+}
     
 
-// console.log(typeof heros);
+console.log(typeof heros);
 
 
-////++++++++++++++++++++++++++++++++++++++++++++++++
+//++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-// stack (primitive), heap (non primitive)
+stack (primitive), heap (non primitive)
 
-// let myYoutubeName="brijeshsahani"
+let myYoutubeName="brijeshsahani"
 
-// let anotherName= "chaiaurcode"
-// console.log(myYoutubeName);
-// console.log(anotherName);
+let anotherName= "chaiaurcode"
+console.log(myYoutubeName);
+console.log(anotherName);
 
 
 let userOne ={
