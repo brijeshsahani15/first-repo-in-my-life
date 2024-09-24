@@ -24,10 +24,14 @@ console.log(newDate.getDay());
 
 newDate.toLocaleString('default',{
     weekday:"long",
-    
+ 
 })
 
 console.log(newDate);
+
+
+
+
 
 
 
