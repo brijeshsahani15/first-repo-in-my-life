@@ -3,10 +3,10 @@ const coding  = ["js", "python","java","cpp"]
 
 
 
-// coding. forEach( function (val){
-//     console.log(val);
+coding. forEach( function (val){
+    console.log(val);
 
-// })
+})
 
 
 
@@ -15,12 +15,12 @@ const coding  = ["js", "python","java","cpp"]
 /// this is the second way to access the  conding value 
 
 
-// function printMe(item){
-//     console.log(item);
-// }
+function printMe(item){
+    console.log(item);
+}
 
 
-// coding .forEach(printMe);
+coding .forEach(printMe);
 
 
 
@@ -28,11 +28,11 @@ const coding  = ["js", "python","java","cpp"]
 
 // this is the arrow functions(it can uasee in many way) 
 
-// coding .forEach((item,index, arr)=>{
-//     console.log(item,index ,arr);
+coding .forEach((item,index, arr)=>{
+    console.log(item,index ,arr);
 
 
-// })
+})
 
 
 
