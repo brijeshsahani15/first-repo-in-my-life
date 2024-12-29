@@ -10,9 +10,26 @@
 
 
 
+
 <script>
-    <div
-</script>
+    // Your JavaScript code here
+   const div=document.createElement('div')
+    console.log(div)
+    div.className = "main";
+    div.id = (Math.random()*10+1)
+    div.setAttribute("title","generated title")
+    div.style.padding="12px"
+
+// these two are the same thing but diffrent method
+
+    const addText= document.CreateTextNode("chai aur code ")
+    div.appendChild("addText")
+
     
+    document.body.apppendChild(div)
+
+
+</script>
+   
 </body>
 </html>
