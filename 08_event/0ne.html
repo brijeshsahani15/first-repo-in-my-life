@@ -41,11 +41,18 @@
 
         document.getElementById("google").addEventListener('click', function(e){
             e.preventDefault();
-        },false);
+            console.log(e.target.parentNode)
+            let removeIt = e.target.parentNode;
+            removeIt.remove();
+        });
     </script>
 </body>
 
 </html>
+
+
+
+
 
 
 
