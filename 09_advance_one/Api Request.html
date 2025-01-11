@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body>
+    <script>
+        const requestUrl = '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';
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', requestUrl);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                console.log(xhr.responseText);
+            }
+        };
+        xhr.send();
+    </script>
+    
+</body>
+</html>
